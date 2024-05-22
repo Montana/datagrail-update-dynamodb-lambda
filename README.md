@@ -14,6 +14,46 @@ This AWS Lambda function updates an item in a DynamoDB table based on the provid
 - `index.js`: The Lambda function code
 - `datagrail_update_dynamodb_event.json`: A sample test event
 
+## Flowchart
+
+```bash
++--------------------------+
+|      Create IAM Role     |
++--------------------------+
+             |
+             v
++--------------------------+
+|   Create Lambda Function |
++--------------------------+
+             |
+             v
++--------------------------+
+|  Write Lambda Function   |
+|           Code           |
++--------------------------+
+             |
+             v
++--------------------------+
+|   Configure Lambda       |
+|     Function Trigger     |
++--------------------------+
+             |
+             v
++--------------------------+
+|    Test Lambda Function  |
++--------------------------+
+             |
+             v
++--------------------------+
+|  Integrate with DataGrail|
++--------------------------+
+             |
+             v
++--------------------------+
+|    Deploy and Monitor    |
++--------------------------+
+```
+
 ## Lambda Function Code (`index.js`)
 
 ```javascript
