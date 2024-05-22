@@ -1,0 +1,13 @@
+{
+  "label": "datagrail_update_dynamodb_event",
+  "detail": {
+    "operation": "update",
+    "item": {
+      "id": "123",
+      "attributes": {
+        "name": "Sample Item",
+        "status": "active"
+      }
+    }
+  }
+}
